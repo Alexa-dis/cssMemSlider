@@ -3,8 +3,8 @@ body {
 }
 .slider {
   position: relative;
-  max-width: 680px;
-  margin: 50px auto;
+  max-width: 43rem;
+  margin: 5% auto;
 }
 
 .slider input[name="point"] {
@@ -15,23 +15,23 @@ body {
   text-align: end;
   width: 100%;
   position: relative;
-  top: -100px;
+  top: -6.25rem;
 }
 
 .switch label {
   display: inline-block;
-  width: 19px;
-  height: 19px;
+  width: 1.2rem;
+  height: 1.2rem;
   cursor: pointer;
-  margin: 20px 0 0 10px;
+  margin: 3% 0 0 2%;
   border-radius: 50%;
   background-color: royalblue;
 }
 
 .switch label:hover {
   display: inline-block;
-  width: 19px;
-  height: 19px;
+  width: 1.2rem;
+  height: 1.2rem;
   cursor: pointer;
   border-radius: 50%;
   background-color: white;
@@ -39,43 +39,43 @@ body {
 
 .switch label:before {
   content: "";
-  padding: 15px;
+  padding: 1rem;
 }
 
 #slide1:checked ~ .switch label[for="slide1"] {
-  width: 15px;
-  height: 15px;
-  border: 2px solid royalblue;
+  width: 1rem;
+  height: 1rem;
+  border: 0.125rem solid royalblue;
   background-color: black;
   position: relative;
-  top: 2px;
+  top: 0.125rem;
 }
 
 #slide2:checked ~ .switch label[for="slide2"] {
-  width: 15px;
-  height: 15px;
-  border: 2px solid royalblue;
+  width: 1rem;
+  height: 1rem;
+  border: 0.125rem solid royalblue;
   background-color: black;
   position: relative;
-  top: 2px;
+  top: 0.125rem;
 }
 
 #slide3:checked ~ .switch label[for="slide3"] {
-  width: 15px;
-  height: 15px;
-  border: 2px solid royalblue;
+  width: 1rem;
+  height: 1rem;
+  border: 0.125rem solid royalblue;
   background-color: black;
   position: relative;
-  top: 2px;
+  top: 0.125rem;
 }
 
 #slide4:checked ~ .switch label[for="slide4"] {
-  width: 15px;
-  height: 15px;
-  border: 2px solid royalblue;
+  width: 1rem;
+  height: 1rem;
+  border: 0.125rem solid royalblue;
   background-color: black;
   position: relative;
-  top: 2px;
+  top: 0.125rem;
 }
 
 .slider-inner {
@@ -140,35 +140,33 @@ body {
   color: whitesmoke;
   font-size: 1.3em;
   position: relative;
-  top: 700px;
+  top: 43.6rem;
 }
-
-
 
 @media (max-width: 375px) {
   .slider {
     position: relative;
-    width: 300px;
-    height: 600px;
-    margin: 50px auto;
+    width: 80vw;
+    height: 100vh;
+    margin: 10% auto;
   }
 
   .slides {
     display: flex;
-    width: 1200px;
+    width: 320vw;
     transition: all 0.5s;
-    height: 700px;
+    height: 100vh;
   }
 
   .slider-inner {
     overflow: hidden;
-    width: 300px;
-    height: 700px;
+    width: 80vw;
+    height: 86vh;
   }
 
   .slimg {
-    width: 300px;
-    height: 300px;
+    width: 80vw;
+    height: 80vw;
   }
 
   .slide1 {
@@ -195,13 +193,13 @@ body {
     text-align: center;
     width: 100%;
     position: relative;
-    top: -390px;
+    top: -33.6rem;
   }
 
   .slides p {
     color: whitesmoke;
-    font-size: 1.2em;
+    font-size: 1.1em;
     position: relative;
-    top: 350px;
+    top: 22rem;
   }
 }
