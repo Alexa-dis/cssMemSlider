@@ -97,22 +97,22 @@ body {
 }
 
 .slide1 {
-  background-image: url(/cssMemSlider/1.jpg);
+  background-image: url("imgs/1.png");
   background-size: cover;
 }
 
 .slide2 {
-  background-image: url(/cssMemSlider/2.jpg);
+  background-image: url("imgs/2.png");
   background-size: cover;
 }
 
 .slide3 {
-  background-image: url(/cssMemSlider/3.jpg);
+  background-image: url("imgs/3.png");
   background-size: cover;
 }
 
 .slide4 {
-  background-image: url(/cssMemSlider/4.jpg);
+  background-image: url("imgs/4.png");
   background-size: cover;
 }
 
@@ -165,22 +165,22 @@ body {
   }
 
   .slide1 {
-    background-image: url(/cssMemSlider/1.jpg);
+    background-image: url("imgs/1.png");
     background-size: cover;
   }
 
   .slide2 {
-    background-image: url(/cssMemSlider/2.jpg);
+    background-image: url("imgs/2.png");
     background-size: cover;
   }
 
   .slide3 {
-    background-image: url(/cssMemSlider/3.jpg);
+    background-image: url("imgs/3.png");
     background-size: acover;
   }
 
   .slide4 {
-    background-image: url(/cssMemSlider/4.jpg);
+    background-image: url("imgs/4.png");
     background-size: cover;
   }
 }
@@ -212,22 +212,22 @@ body {
   }
 
   .slide1 {
-    background-image: url(/cssMemSlider/1.jpg);
+    background-image: url("imgs/1.png");
     background-size: cover;
   }
 
   .slide2 {
-    background-image: url(/cssMemSlider/2.jpg);
+    background-image: url("imgs/2.png");
     background-size: cover;
   }
 
   .slide3 {
-    background-image: url(/cssMemSlider/3.jpg);
+    background-image: url("imgs/3.png");
     background-size: cover;
   }
 
   .slide4 {
-    background-image: url(/cssMemSlider/4.jpg);
+    background-image: url("imgs/4.png");
     background-size: cover;
   }
 
